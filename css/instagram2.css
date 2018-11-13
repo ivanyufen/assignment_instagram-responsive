@@ -33,10 +33,14 @@ ul{
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 5px 10px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
 
 .container input:focus{
     background-color: #fff;
+    background-image: none;
 }
 
 .container input:focus::placeholder{
